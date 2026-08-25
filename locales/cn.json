@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "启用光标",
+    "disable_cursor": "禁用光标",
+    "translate_mode": "移动模式",
+    "rotate_mode": "旋转模式",
+    "snap_to_ground": "贴地",
+    "done_editing": "完成编辑",
+    "cancel_editing": "取消编辑",
+    "keyboard_hint": "[WASD] 移动  \n[Q/E] 上/下  \n[Scroll / ← →] 旋转  \n[LALT] 贴地  \n[Shift] 精细  \n[ENTER] 完成  \n[ESC] 取消"
+  }
+}

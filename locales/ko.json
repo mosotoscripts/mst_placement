@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "커서 활성화",
+    "disable_cursor": "커서 비활성화",
+    "translate_mode": "이동 모드",
+    "rotate_mode": "회전 모드",
+    "snap_to_ground": "지면에 맞춤",
+    "done_editing": "편집 완료",
+    "cancel_editing": "편집 취소",
+    "keyboard_hint": "[WASD] 이동  \n[Q/E] 위/아래  \n[Scroll / ← →] 회전  \n[LALT] 맞춤  \n[Shift] 미세  \n[ENTER] 완료  \n[ESC] 취소"
+  }
+}

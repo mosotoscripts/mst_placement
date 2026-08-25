@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Włącz kursor",
+    "disable_cursor": "Wyłącz kursor",
+    "translate_mode": "Tryb przesuwania",
+    "rotate_mode": "Tryb obrotu",
+    "snap_to_ground": "Przyciągnij do podłoża",
+    "done_editing": "Zakończ edycję",
+    "cancel_editing": "Anuluj edycję",
+    "keyboard_hint": "[WASD] Poruszanie  \n[Q/E] Góra/Dół  \n[Scroll / ← →] Obrót  \n[LALT] Przyciągnij  \n[Shift] Precyzja  \n[ENTER] Gotowe  \n[ESC] Anuluj"
+  }
+}

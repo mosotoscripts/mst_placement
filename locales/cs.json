@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Zapnout kurzor",
+    "disable_cursor": "Vypnout kurzor",
+    "translate_mode": "Režim posunu",
+    "rotate_mode": "Režim otáčení",
+    "snap_to_ground": "Přichytit k zemi",
+    "done_editing": "Úprava dokončena",
+    "cancel_editing": "Zrušit úpravu",
+    "keyboard_hint": "[WASD] Pohyb  \n[Q/E] Nahoru/Dolů  \n[Scroll / ← →] Otáčení  \n[LALT] Přichytit  \n[Shift] Jemně  \n[ENTER] Hotovo  \n[ESC] Zrušit"
+  }
+}

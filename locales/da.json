@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Aktivér markør",
+    "disable_cursor": "Deaktivér markør",
+    "translate_mode": "Flyttetilstand",
+    "rotate_mode": "Rotationstilstand",
+    "snap_to_ground": "Fastgør til jorden",
+    "done_editing": "Redigering fuldført",
+    "cancel_editing": "Annuller redigering",
+    "keyboard_hint": "[WASD] Flyt  \n[Q/E] Op/Ned  \n[Scroll / ← →] Rotér  \n[LALT] Fastgør  \n[Shift] Fin  \n[ENTER] Færdig  \n[ESC] Annuller"
+  }
+}

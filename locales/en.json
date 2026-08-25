@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Enable Cursor",
+    "disable_cursor": "Disable Cursor",
+    "translate_mode": "Translate Mode",
+    "rotate_mode": "Rotate Mode",
+    "snap_to_ground": "Snap To Ground",
+    "done_editing": "Done Editing",
+    "cancel_editing": "Cancel Editing",
+    "keyboard_hint": "[WASD] Move  \n[Q/E] Up/Down  \n[Scroll / ← →] Rotate  \n[LALT] Snap  \n[Shift] Fine  \n[ENTER] Done  \n[ESC] Cancel"
+  }
+}

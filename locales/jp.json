@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "カーソルを有効化",
+    "disable_cursor": "カーソルを無効化",
+    "translate_mode": "移動モード",
+    "rotate_mode": "回転モード",
+    "snap_to_ground": "地面にスナップ",
+    "done_editing": "編集完了",
+    "cancel_editing": "編集をキャンセル",
+    "keyboard_hint": "[WASD] 移動  \n[Q/E] 上下  \n[Scroll / ← →] 回転  \n[LALT] スナップ  \n[Shift] 微調整  \n[ENTER] 完了  \n[ESC] キャンセル"
+  }
+}

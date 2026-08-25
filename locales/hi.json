@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "कर्सर सक्षम करें",
+    "disable_cursor": "कर्सर अक्षम करें",
+    "translate_mode": "स्थानांतरण मोड",
+    "rotate_mode": "घुमाव मोड",
+    "snap_to_ground": "ज़मीन से चिपकाएँ",
+    "done_editing": "संपादन पूर्ण",
+    "cancel_editing": "संपादन रद्द करें",
+    "keyboard_hint": "[WASD] हिलाएँ  \n[Q/E] ऊपर/नीचे  \n[Scroll / ← →] घुमाएँ  \n[LALT] चिपकाएँ  \n[Shift] सूक्ष्म  \n[ENTER] पूर्ण  \n[ESC] रद्द करें"
+  }
+}

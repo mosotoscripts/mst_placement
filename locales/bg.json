@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Активиране на курсор",
+    "disable_cursor": "Деактивиране на курсор",
+    "translate_mode": "Режим на преместване",
+    "rotate_mode": "Режим на ротация",
+    "snap_to_ground": "Прилепване към земята",
+    "done_editing": "Приключена редакция",
+    "cancel_editing": "Отказ от редакция",
+    "keyboard_hint": "[WASD] Местене  \n[Q/E] Горе/долу  \n[Scroll / ← →] Ротация  \n[LALT] Snap  \n[Shift] Фино  \n[ENTER] Готово  \n[ESC] Отказ"
+  }
+}

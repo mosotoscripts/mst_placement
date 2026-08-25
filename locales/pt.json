@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Ativar cursor",
+    "disable_cursor": "Desativar cursor",
+    "translate_mode": "Modo de translação",
+    "rotate_mode": "Modo de rotação",
+    "snap_to_ground": "Encaixar no chão",
+    "done_editing": "Edição concluída",
+    "cancel_editing": "Cancelar edição",
+    "keyboard_hint": "[WASD] Mover  \n[Q/E] Cima/Baixo  \n[Scroll / ← →] Rodar  \n[LALT] Encaixar  \n[Shift] Preciso  \n[ENTER] Concluir  \n[ESC] Cancelar"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Cursor inschakelen",
+    "disable_cursor": "Cursor uitschakelen",
+    "translate_mode": "Verplaatsmodus",
+    "rotate_mode": "Rotatiemodus",
+    "snap_to_ground": "Op grond uitlijnen",
+    "done_editing": "Bewerken voltooid",
+    "cancel_editing": "Bewerken annuleren",
+    "keyboard_hint": "[WASD] Verplaatsen  \n[Q/E] Omhoog/Omlaag  \n[Scroll / ← →] Draaien  \n[LALT] Uitlijnen  \n[Shift] Fijn  \n[ENTER] Klaar  \n[ESC] Annuleren"
+  }
+}

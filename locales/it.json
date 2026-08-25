@@ -1,0 +1,12 @@
+{
+  "gizmo": {
+    "enable_cursor": "Attiva cursore",
+    "disable_cursor": "Disattiva cursore",
+    "translate_mode": "Modalità spostamento",
+    "rotate_mode": "Modalità rotazione",
+    "snap_to_ground": "Allinea al suolo",
+    "done_editing": "Modifica completata",
+    "cancel_editing": "Annulla modifica",
+    "keyboard_hint": "[WASD] Sposta  \n[Q/E] Su/Giù  \n[Scroll / ← →] Ruota  \n[LALT] Allinea  \n[Shift] Fine  \n[ENTER] Fine  \n[ESC] Annulla"
+  }
+}
