@@ -222,20 +222,39 @@ local function snapToGround(entity)
     SetEntityCoordsNoOffset(entity, coords.x, coords.y, coords.z - 0.04, false, false, false)
 end
 
+local function clearPreviewFx(entity)
+    if not entity or not DoesEntityExist(entity) then return end
+    if SetEntityDrawOutline then
+        SetEntityDrawOutline(entity, false)
+    end
+    ResetEntityAlpha(entity)
+    SetEntityVisible(entity, true, false)
+    SetEntityAlpha(entity, 255, false)
+end
+
+local function applyPreviewFx(entity)
+    if not entity or not DoesEntityExist(entity) then return end
+    SetEntityAlpha(entity, getPreviewAlpha(), false)
+
+    if not SetEntityDrawOutline or IsEntityAPed(entity) then return end
+    if SetEntityDrawOutlineShader then
+        SetEntityDrawOutlineShader(1)
+    end
+    if SetEntityDrawOutlineColor then
+        SetEntityDrawOutlineColor(80, 220, 120, 200)
+    end
+    SetEntityDrawOutline(entity, true)
+end
+
 local function placementLoop(entity)
     if not gizmoEnabled or not DoesEntityExist(entity) then
         gizmoEnabled = false
         return
     end
 
-    if IsEntityAPed(entity) then
-        SetEntityAlpha(entity, getPreviewAlpha())
-    else
-        SetEntityAlpha(entity, getPreviewAlpha(), false)
-        SetEntityDrawOutlineColor(130, 103, 240, 200)
-        SetEntityDrawOutlineShader(1)
-        SetEntityDrawOutline(entity, true)
-    end
+    -- Outline + soft alpha during gizmo. Cleared on confirm/cancel; mst_crypto
+    -- also forces solid visible after place so the outline shader cannot stick.
+    applyPreviewFx(entity)
 
     showHint()
     local lastHint = GetGameTimer()
@@ -280,10 +299,7 @@ local function placementLoop(entity)
         Wait(0)
     end
 
-    if DoesEntityExist(entity) then
-        SetEntityAlpha(entity, 255, false)
-        SetEntityDrawOutline(entity, false)
-    end
+    clearPreviewFx(entity)
 
     SetPauseMenuActive(true)
     hideGizmoHelpText()
@@ -292,6 +308,9 @@ local function placementLoop(entity)
 end
 
 local function releaseGizmoInput()
+    if currentEntity and DoesEntityExist(currentEntity) then
+        clearPreviewFx(currentEntity)
+    end
     gizmoEnabled = false
     currentEntity = nil
     SetPauseMenuActive(true)
